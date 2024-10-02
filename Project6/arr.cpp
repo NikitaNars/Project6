@@ -8,7 +8,7 @@ int main()
 	
 	for (int i = 0; i < size; i++)
 	{
-		arr[i] = rand() % 6 + 5;
+		arr[i] = rand() % 16 + -5;
 		if (i == 10)
 		{
 			std::cout << std::endl;
